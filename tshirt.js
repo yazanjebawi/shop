@@ -9,6 +9,38 @@ document.querySelectorAll('.image-item img').forEach(img => {
         this.setAttribute('src', originalSrc);
     });
 
-    // Store the original src in a data attribute
+    
     img.setAttribute('data-original', img.getAttribute('src'));
 });
+
+
+
+
+function showDashedLine(size) {
+    
+    document.querySelectorAll('.dashed-line').forEach(line => line.style.display = 'none');
+   
+    document.getElementById('line-' + size).style.display = 'block';
+}
+
+
+
+let count = 1;
+
+function increaseCount() {
+    if (count < 14) {  
+        count++;
+        document.getElementById('abyad').innerText = count;
+    }
+}
+
+function decreaseCount() {
+    if (count > 1) { 
+        count--;
+        document.getElementById('abyad').innerText = count;
+    }
+}
+
+function addToCart() {
+    
+}
