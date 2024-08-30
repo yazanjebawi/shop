@@ -182,3 +182,17 @@ th, td {
     background-color: #218838;
 }
 
+.cart {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#hiddenButton{
+    display: none;
+    background-color: #4d4c4c;
+    color: #f9f9f9;
+
+}

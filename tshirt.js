@@ -41,6 +41,15 @@ function decreaseCount() {
     }
 }
 
-function addToCart() {
-    
-}
+
+
+
+    // الحصول على الزر الأول والثاني
+    const firstButton = document.querySelector('.button-akhdar');
+    const hiddenButton = document.getElementById('hiddenButton');
+
+    // إضافة حدث الضغط على الزر الأول
+    firstButton.addEventListener('click', function() {
+        // إظهار الزر الثاني
+        hiddenButton.style.display = 'inline-block';
+    });
