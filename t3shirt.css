@@ -1,0 +1,260 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;}
+
+
+    #navebar{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items:last baseline;
+        background-color: rgb(243, 104, 11);
+        gap: 20px;
+    
+    }
+    #navelist{
+        flex-direction:column;
+    }
+    .logo{
+        list-style-type: none;
+    
+    }
+    .log{
+        color: #000;
+        font-size: 50px;
+        line-break: ;
+    
+    }
+    .navei{
+        display: contents;
+        color: #000;
+    }
+    .th{
+        color: #faf9f9;
+    }
+    .navelist{
+        display: contents;
+        
+    
+    }
+    #on{
+        color: aliceblue;
+        background-color: #000;
+        font-size: 50px;
+        padding-top: 50px;
+        
+    }
+    .to{
+        font-size: 50px;
+        color: #f9f9f9;
+    }
+
+
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.numbered-circle-list {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    counter-reset: list-counter; /* إعادة ضبط العداد */
+}
+
+.numbered-circle-list li {
+    counter-increment: list-counter;
+    margin: 10px 0;
+    color: #ccc;
+    font-size: 20PX;
+    position: relative;
+    padding-left: 40px; /* ترك مساحة قبل النص */
+}
+
+.numbered-circle-list li::before {
+    content: counter(list-counter);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.numbered-circle-list li:nth-child(2)::before {
+    background-color: rgb(255, 98, 0);
+    color: white; /* لجعل الرقم واضحاً داخل الدائرة الحمراء */
+}
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section, .right-section {
+    width: 50%;
+    padding: 20px;
+}
+
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.whitetextt {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.white-line {
+    border: 1px solid white;
+    margin: 20px 0;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.half-width {
+    width: calc(50% - 10px);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.half-width:last-of-type {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+
+
+
+.left-section, .right-section {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-section {
+    display:inline-flex;
+    flex-direction: column;
+    
+    
+}
+
+.right-section {
+    display:inline-flex;
+    flex-direction:column;
+    
+
+    
+    background-color: #1c1c1c;
+}
+
+.white-text {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.white-line {
+    border: 1px solid white;
+    margin: 20px 0;
+}
+
+.simple-table {
+    width: 100%;
+    border-collapse: collapse; /* حذف الحدود بين الأعمدة والصفوف */
+    margin-bottom: 20px;
+}
+
+.simple-table td {
+    border-collapse: collapse;
+    padding: 10px;
+    color: white;
+    text-align: left; /* محاذاة النص إلى اليسار */
+}
+td{
+    border: 1px black;
+    padding: 8px;
+    
+}
+tr{
+    border-bottom: 1px black;
+}
+
+.checkbox-group {
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.half-width {
+    width: calc(50% - 10px);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.half-width:last-of-type {
+    margin-right: 0;
+}
+
+.action-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}

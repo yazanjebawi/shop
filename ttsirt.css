@@ -196,3 +196,121 @@ th, td {
     color: #f9f9f9;
 
 }
+
+
+#hiddenButton {
+    display: block;
+    margin: 20px;
+}
+
+#menu {
+    display: none;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#nn{
+    align-items: center;
+}
+
+
+
+
+.button-containeryy {
+    margin: 20px 0;
+}
+
+.button-containeryy button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-containeryy button:hover {
+    background-color: #45a049;
+}
+
+#button1{
+    background-color: brown;
+}
+#button2{
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.numbered-circle-list {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    counter-reset: list-counter; /* إعادة ضبط العداد */
+}
+
+.numbered-circle-list li {
+    counter-increment: list-counter;
+    margin: 10px 0;
+    color: #ccc;
+    font-size: 20PX;
+    position: relative;
+    padding-left: 40px; /* ترك مساحة قبل النص */
+}
+
+.numbered-circle-list li::before {
+    content: counter(list-counter);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.numbered-circle-list li:nth-child(2)::before {
+    background-color: rgb(255, 98, 0);
+    color: white; /* لجعل الرقم واضحاً داخل الدائرة الحمراء */
+}
+
+
+
+
+
+
+

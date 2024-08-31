@@ -53,3 +53,14 @@ function decreaseCount() {
         // إظهار الزر الثاني
         hiddenButton.style.display = 'inline-block';
     });
+
+
+
+    document.getElementById("hiddenButton").addEventListener("click", function() {
+        var menu = document.getElementById("menu");
+        if (menu.style.display === "none") {
+            menu.style.display = "block";
+        } else {
+            menu.style.display = "none";
+        }
+    });
