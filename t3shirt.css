@@ -258,3 +258,17 @@ input[type="text"] {
 .action-button:hover {
     background-color: #0056b3;
 }
+
+.imm{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1oovh;
+}
+
+
+#imj{
+    max-width: 100%;
+height: auto;
+}
