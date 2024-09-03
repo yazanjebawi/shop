@@ -66,7 +66,7 @@ header {
     padding: 0;
     margin: 0;
     align-items: center;
-    counter-reset: list-counter; /* إعادة ضبط العداد */
+    counter-reset: list-counter;
 }
 
 .numbered-circle-list li {
@@ -75,7 +75,7 @@ header {
     color: #ccc;
     font-size: 20PX;
     position: relative;
-    padding-left: 40px; /* ترك مساحة قبل النص */
+    padding-left: 40px; 
 }
 
 .numbered-circle-list li::before {
@@ -97,7 +97,7 @@ header {
 
 .numbered-circle-list li:nth-child(2)::before {
     background-color: rgb(255, 98, 0);
-    color: white; /* لجعل الرقم واضحاً داخل الدائرة الحمراء */
+    color: white; 
 }
 
 
@@ -204,7 +204,7 @@ input[type="text"] {
 
 .simple-table {
     width: 100%;
-    border-collapse: collapse; /* حذف الحدود بين الأعمدة والصفوف */
+    border-collapse: collapse; 
     margin-bottom: 20px;
 }
 
@@ -212,7 +212,7 @@ input[type="text"] {
     border-collapse: collapse;
     padding: 10px;
     color: white;
-    text-align: left; /* محاذاة النص إلى اليسار */
+    text-align: left; 
 }
 td{
     border: 1px black;
