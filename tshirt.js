@@ -70,9 +70,6 @@ function decreaseCount() {
     });
 
 
-document.getElementsByid('bata').addEventListener('yazan', function (){
-    window.location.href = '4shirt.html';
-});
 
 
 
